@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#AEAEAE</color>
+
+    <!-- Mi paleta de colores -->
+    <color name="color1">#8DF8D1</color>
+    <color name="color2">#7CD99C</color>
+    <color name="color3">#94F09A</color>
+    <color name="color4">#94D97C</color>
+    <color name="color5">#CFF88D</color>
+
+    <color name="color_backgroung_editText">#E6F1E4</color>
+    <color name="red">#D61E1E</color>
+    <color name="color_logOut">#D86363</color>
+
+    <color name="color_matches">#94D97C</color>
+    <color name="color_trainings">#FAD35A</color>
+    <color name="color_other_events">#729CF7</color>
+</resources>

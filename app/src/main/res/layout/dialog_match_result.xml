@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/playerNameText"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:background="@color/color_backgroung_editText"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:inputType="text"
+        android:hint="Nombre del oponente"
+        android:layout_margin="5dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/event_background_line"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="Primer set"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <EditText
+                android:id="@+id/firstSet1Text"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:background="@color/color_backgroung_editText"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:inputType="number"
+                android:layout_weight="0.4"
+                android:textAlignment="center"/>
+
+            <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="match_parent"/>
+
+            <EditText
+                android:id="@+id/firstSet2Text"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:background="@color/color_backgroung_editText"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:inputType="number"
+                android:layout_weight="0.4"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="Segundo set"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <EditText
+                android:id="@+id/secondSet1Text"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:background="@color/color_backgroung_editText"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:inputType="number"
+                android:layout_weight="0.4"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="match_parent"/>
+
+            <EditText
+                android:id="@+id/secondSet2Text"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:background="@color/color_backgroung_editText"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:inputType="number"
+                android:layout_weight="0.4"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="Tercer set"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <EditText
+                android:id="@+id/thirdSet1Text"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:background="@color/color_backgroung_editText"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:inputType="number"
+                android:layout_weight="0.4"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="match_parent"/>
+
+            <EditText
+                android:id="@+id/thirdSet2Text"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:background="@color/color_backgroung_editText"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:inputType="number"
+                android:layout_weight="0.4"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="Cuarto set"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <EditText
+                android:id="@+id/fourthSet1Text"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:background="@color/color_backgroung_editText"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:inputType="number"
+                android:layout_weight="0.4"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="match_parent"/>
+
+            <EditText
+                android:id="@+id/fourthSet2Text"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:background="@color/color_backgroung_editText"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:inputType="number"
+                android:layout_weight="0.4"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="Quinto set"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <EditText
+                android:id="@+id/fifthSet1Text"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:background="@color/color_backgroung_editText"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:inputType="number"
+                android:layout_weight="0.4"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="match_parent"/>
+
+            <EditText
+                android:id="@+id/fifthSet2Text"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:background="@color/color_backgroung_editText"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:inputType="number"
+                android:layout_weight="0.4"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

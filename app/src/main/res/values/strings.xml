@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Golpe Maestro</string>
+
+    <!--LogInActivity y SignUpActivity-->
+    <string name="auth_tittle">Inicio de sesión</string>
+    <string name="auth_email">Correo electrónico</string>
+    <string name="auth_password">Contraseña</string>
+    <string name="auth_button1">Registrarse</string>
+    <string name="auth_button2">Acceder</string>
+    <string name="signUp_tittle">Crear cuenta</string>
+    <string name="auth_password2">Confirmar contraseña</string>
+    <string name="auth_firstName">Nombre</string>
+    <string name="auth_secondName">Apellidos</string>
+    <string name="auth_google_button">Continuar con Google</string>
+    <string name="auth_twitter_button">Twitter</string>
+
+    <!--VerfifyEmailActivity-->
+    <string name="verify_email_tittle">Verificación de correo electrónico</string>
+    <string name="verify_email_text">Para acceder a la aplicación verifica tu correo electrónico (recuerda mirar en SPAM)</string>
+    <string name="verify_email_button">Acceder a Golpe Maestro</string>
+
+    <!--ForgotPasswordActivity-->
+    <string name="forgot_password_tittle">¿Has olvidado tu contraseña?</string>
+    <string name="forgot_password_text">Introduce el correo asociado a tu cuenta</string>
+    <string name="forgot_password_button">Enviar</string>
+
+    <!--NavMenuFragment-->
+    <string name="icon1">Inicio</string>
+    <string name="icon2">Eventos</string>
+    <string name="icon3">Estadísticas</string>
+    <string name="icon4">Golpeos</string>
+    <string name="icon5">Bluetooth</string>
+
+    <!--HomeFragment-->
+    <string name="editButtom">Ajustes</string>
+
+    <!--SettingsFragment-->
+    <string name="settingsFragmentTittle">Ajustes</string>
+    <string name="subTittle1">Datos del usuario</string>
+    <string name="subTittle2">Seguridad</string>
+    <string name="selectUserImageButton">Añadir foto de perfil</string>
+    <string name="modifyUserDataButton">Añadir/Modificar datos</string>
+    <string name="changePasswordButton">Cambiar contraseña</string>
+    <string name="deleteUserAccountButton">Eliminar cuenta</string>
+    <string name="logOutButton">Cerrar sesión</string>
+    <string name="nameAndSurnameText">Nombre y apellidos</string>
+    <string name="genderText">Género</string>
+    <string name="birthDateText">Nacimiento</string>
+    <string name="weightText">Peso (kg)</string>
+    <string name="heightText">Altura (cm)</string>
+
+    <!--StrokesActivity-->
+    <string name="endStrokeSession">Finalizar sesión</string>
+    <string name="graphicStrokesTittle">Gráfico</string>
+    <string name="textualStrokesTittle">Textual</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="strokes">Golpeos</string>
+
+    <!--AllEventsFragment-->
+    <string name="addMatchButton">Añadir Partido</string>
+    <string name="addTrainingButton">Añadir Entrenamiento</string>
+    <string name="addOtherEventButton">Añadir Otro Evento</string>
+    <string name="dateText">Fecha</string>
+    <string name="timeText">Hora</string>
+    <string name="placeText">Dirección Pista de Tenis</string>
+    <string name="courtTypeText">Tipo de Pista</string>
+    <string name="playersNumberText">Jugadores</string>
+    <string name="matchInfoButton">Información Partido</string>
+    <string name="matchResultText">Resultado</string>
+    <string name="oponentText">Oponente</string>
+    <string name="titleStrokesText">Golpeos</string>
+    <string name="notStartedMatchText">El partido no ha empezado</string>
+    <string name="deleteEvent">Eliminar Evento</string>
+    <string name="placeOtherEventText">Dirección</string>
+    <string name="trainingInfoText">Información Entrenamiento</string>
+    <string name="otherEventInfoText">Información Evento</string>
+    <string name="otherEventDescription">Descripción</string>
+
+    <!--StatisticsFragment-->
+    <string name="firstLineChart">Sesiones / mes</string>
+    <string name="secondLineChart">Golpeos realizados / mes</string>
+    <string name="thirdLineChart">Calorías quemadas / mes</string>
+    <string name="thridLineChartMessage">[Introduce tus datos personales para visualizar esta gráfica]</string>
+
+
+</resources>

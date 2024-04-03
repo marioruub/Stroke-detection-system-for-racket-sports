@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.strokeDetectionSystemForRacketRports">
+
+    <!-- BLE -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+
+    <!-- Notifications -->
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:name="com.example.strokeDetectionSystemForRacketRports.GolpeMaestroApp"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyTennisApp10"
+        tools:targetApi="31">
+        <receiver android:name="com.example.strokeDetectionSystemForRacketRports.components.events.viewmodel.AlarmNotification"
+            android:enabled="true"/>
+        <activity
+            android:name="com.example.strokeDetectionSystemForRacketRports.components.strokes.view.StrokesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.strokeDetectionSystemForRacketRports.components.authentication.view.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.strokeDetectionSystemForRacketRports.components.authentication.view.VerifyEmailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.strokeDetectionSystemForRacketRports.components.authentication.view.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.strokeDetectionSystemForRacketRports.components.homeA.view.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.strokeDetectionSystemForRacketRports.components.authentication.view.LogInActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

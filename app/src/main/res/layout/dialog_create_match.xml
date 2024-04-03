@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/eventNameText1"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:background="@color/color_backgroung_editText"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:inputType="text"
+        android:hint="Nombre del evento"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/placeText1"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:background="@color/color_backgroung_editText"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/baseline_add_location_24"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:inputType="text"
+        android:hint="Lugar del evento"
+        android:layout_margin="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/dateText1"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/color_backgroung_editText"
+            android:drawableLeft="@drawable/baseline_calendar_today_24"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:focusable="false"
+            android:hint="@string/dateText"
+            android:layout_margin="5dp"/>
+
+        <EditText
+            android:id="@+id/timeText1"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/color_backgroung_editText"
+            android:drawableLeft="@drawable/baseline_access_time_24"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:focusable="false"
+            android:hint="@string/timeText"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
