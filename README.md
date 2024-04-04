@@ -6,11 +6,15 @@ The measuring device is based on an Arduino which is able to collect raw data th
 
 ## Measuring device
 
-<div style="display: flex;">
+<div style="display: flex; flex-wrap: wrap;">
   <img src="https://github.com/marioruub/Stroke-detection-system-for-racket-sports/blob/main/img/Arduino.jpg" alt="Arduino + Battery" width="43%" height="43%">
   <img src="https://github.com/marioruub/Stroke-detection-system-for-racket-sports/blob/main/img/Device.jpg" alt="Measuring device" width="40%" height="40%">
 </div>
 
 ## Android App
 
-<img src="https://github.com/marioruub/Stroke-detection-system-for-racket-sports/blob/main/img/home.jpg" alt="Measuring device" width="30%" height="30%">
+<div style="display: flex; flex-wrap: wrap;">
+  <img src="https://github.com/marioruub/Stroke-detection-system-for-racket-sports/blob/main/img/login.jpg" alt="App: Login" width="30%" height="30%">
+  <img src="https://github.com/marioruub/Stroke-detection-system-for-racket-sports/blob/main/img/home.jpg" alt="App: Home" width="30%" height="30%">
+  <img src="https://github.com/marioruub/Stroke-detection-system-for-racket-sports/blob/main/img/settings.jpg" alt="App: Settings" width="30%" height="30%">
+</div>
