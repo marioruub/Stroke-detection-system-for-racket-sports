@@ -13,4 +13,4 @@ The measuring device is based on an Arduino which is able to collect raw data th
 
 ## Android App
 
-<img src="https://github.com/marioruub/Stroke-detection-system-for-racket-sports/blob/main/img/home.jpg" alt="Measuring device" width="20%" height="20%">
+<img src="https://github.com/marioruub/Stroke-detection-system-for-racket-sports/blob/main/img/home.jpg" alt="Measuring device" width="30%" height="30%">
